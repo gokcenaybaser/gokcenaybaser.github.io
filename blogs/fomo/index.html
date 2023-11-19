@@ -47,7 +47,12 @@
         <main>
 
             <section class="hero d-flex justify-content-center align-items-center" id="section_1">
-                <div style="margin: 0;padding: 0; background-image: url(../../images/projects/fomo.jpg); background-position: center; height: 100vh; width: 100vw;">
+                <div style="margin: 0;padding: 0; background-image: url(../../images/projects/fomo.jpg); background-position: center; height: 100vh; width: 100vw; background-size: contain; /* Scale the image to fit within the container without cropping */
+                background-position: center; /* Center the image */
+                background-repeat: no-repeat; /* Prevent the image from repeating */
+                height: 100vh; /* Set the height of the container, adjust as needed */
+                width: 100vw; /* Set the width of the container, adjust as needed */
+                overflow: hidden;">
                     <div class="container">
                         <div class="row">
 
